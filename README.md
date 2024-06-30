@@ -1,8 +1,10 @@
-# React + Vite
+* i used vite because it is make an app which is better performance
+* i concentrated on client side rendering
+* i use helmet to improve SEO
+* Due to time constraints i created login page without token because there were not a link which generate access token, So i wrote all logic with how to get access token and how to refresh access token when it's expired
+* how to start 
+npm i
+npm run dev
+json-server --watch --port 4000 ./db.json
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+email: admin && password: 123456
