@@ -1,0 +1,62 @@
+body{
+  background-color: #ece6e6;
+}
+.memberLayout{
+  text-align: center;
+}
+.card{
+  padding: 16px;
+  text-align: left; 
+  color: #000;
+  border: 1px solid #ece6e6;
+  background-color: white;
+  border-radius: 16px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.loginCard{
+  padding: 16px;
+  background-color: white;
+  text-align: center;
+  border: 1px solid #ece6e6;
+  border-radius: 16px;
+  width: 30%;
+  margin: auto;
+  min-height: 300px;
+}
+.logout{
+  text-align: center;
+}
+@media (max-width: 700px) {
+  .loginCard{
+      min-height: 300px;
+      width: 50%;
+  }
+  .card{
+      width: 70%;
+  }
+  span{
+      font-size: 16px;
+      color: rgb(11, 14, 184);
+  }
+  .label{
+      font-size: 14px;
+  }
+}
+@media (max-width: 425px) {
+  .loginCard{
+      min-height: 300px;
+      width: 75%;
+  }
+  .card{
+      width: 70%;
+  }
+  span{
+      font-size: 14px;
+      color: rgb(11, 14, 184);
+  }
+  .label{
+      font-size: 12px;
+  }
+}
